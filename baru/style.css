@@ -1,0 +1,353 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+    z-index: 2;
+    background-color: rgba(255, 0, 0, 0) !important;
+}
+
+.navbar a {
+    color: red !important;
+}
+
+/* Paper styling */
+.paper {
+    width: 80rem; /* panjang */
+    height: 65rem; /* lebar bawah */
+}
+
+/* Responsive styling for img-fluid */
+.img-fluid {
+    margin-top: -115rem !important;
+    margin-left: 305px !important;
+}
+
+/* Awan styling */
+.awan-container {
+    position: absolute;
+    z-index: 3;
+}
+
+/* Float start styling */
+.float-start {
+    position: absolute;
+    margin-top: -84rem;
+    width: 60rem;
+    margin-left: 21rem;
+    z-index: 3 !important;
+}
+
+.float-end {
+    position: absolute;
+    margin-top: -84rem;
+    width: 60rem;
+    z-index: 3 !important;
+}
+
+
+/* Carousel styling */
+.carousel-inner {
+    margin-top: -4rem;
+    z-index: 1;
+}
+
+/* Logo styling */
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: -1px; /* Sesuaikan jarak antara logo dan teks */
+    width: 30px;
+    height: 30px;
+}
+/* card komen */
+.card-body {
+    display: block;
+    margin-top: -50rem !important;
+    border: none !important;
+}
+
+.float-start2 {
+    margin-top: -8rem;
+    margin-left: -10rem;
+}
+
+.card-body .card-title1 {
+    margin-top: -19rem;
+    margin-left: 24rem;
+    font-size: 3rem !important;
+}
+
+.card-body .card-text1 {
+    font-size: 30px;
+    margin-left: 24rem;
+}
+
+.card-body .btn-primary1 {
+    background-color: red !important;
+    margin-left: 24rem;
+}
+/* card end */
+
+/* card voice */
+.card-body2 {
+    display: block;
+    margin-top: -25rem !important;
+    border: none !important;
+}
+
+.float-end2 {
+    margin-top: -11rem;
+    margin-left: 47rem;
+}
+
+.card-body2 .card-title2 {
+    margin-top: -18rem;
+    margin-left: 1rem;
+    font-size: 3rem !important;
+}
+
+.card-body2 .card-text2 {
+    margin-right: 25rem;
+    font-size: 30px;
+    margin-left: 1rem;
+}
+
+.card-body2 .btn-primary2 {
+    background-color: red !important;
+    margin-left: 1rem;
+}
+
+/* VOICE END */
+
+/* FOOTER */
+.img-fluid2 {
+    margin-top: -13rem;
+    width: 90rem;
+    height: 30rem;
+}
+
+form {
+    margin-left: 65rem;
+    margin-top: -10rem;
+}
+
+.form-control {
+    width: 200px;
+}
+
+.con h3 {
+    letter-spacing: 1px;
+    position: absolute;
+    margin-top: -11rem;
+    margin-bottom: 20rem;
+    color: rgb(255, 0, 0);
+    margin-left: 20px;
+  }
+  
+  .sosial-icon2 {
+    margin-top: -8rem;
+    margin-left: 2rem;
+    font-size: 2rem;
+  }
+
+  .sosial-icon2 a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .bxl-instagram {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 2px solid rgb(255, 254, 254);
+  }
+
+  .bxl-whatsapp {
+    color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  .bxl-facebook-circle {
+    color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 255, 255);
+  }
+
+  
+  
+
+
+/* BREAK POINT */
+/* Responsive CSS for screens smaller than 991.98px */
+@media (max-width: 991.98px) {
+    
+    /* Navbar brand responsiveness */
+    .navbar-brand img {
+        max-height: 40px;
+        margin-right: 5px;
+    }
+
+    /* Float start positioning for mobile */
+    .float-start {
+        margin-top: -40rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    /* Other responsive adjustments as needed */
+}
+
+@media (max-width: 1080px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 768px) {
+} 
+@media (max-width:472px) {
+}
+@media (max-width: 370px) {
+    
+  .carousel-item {
+    display: flex !important;
+  }
+
+  .carousel-control-prev{
+    z-index: 9999 !important;
+  }
+
+  .carousel-control-next{
+    z-index: 9999 !important;
+  }
+ /*AWAN*/
+
+  .float-start{
+    margin-top: -833px;
+    width: 459px;
+    height: 236px;
+    margin-left: -86px;
+   }
+
+   .float-end{
+    margin-top: -843px;
+    width: 637px;
+    height: 261px;
+    margin-left: -27px;
+  }
+
+/*BACKGROUND YTANG KERTAS */
+ .paper{
+    height: 43rem ;
+ }
+
+
+
+
+   /*KIDS VOICE*/
+   .img-fluid{ 
+    width: 370px;
+    margin-left: 12px !important;
+    margin-top: -1204px !important;
+    }
+
+    .float-start2{
+    width: 391px;
+    margin-left: -120px;
+    margin-top: 213px;
+    }
+
+    /*KOMEN*/
+    .card-body .card-title1{
+        margin-top: -11rem !important;
+        font-size: 18px !important;
+        margin-left: 153px !important;
+    }
+
+    .card-text1{
+        font-size: 12px !important;
+        margin-right: -13px !important;
+        margin-left: 155px !important;
+    }
+
+    .btn-primary1{
+        margin-left: 250px !important;
+        width: 90px !important;
+        height: 30px !important;
+        font-size: 9px !important;
+        margin-top: -68px !important;
+    }
+
+    /*ASPIRASI*/
+   
+    .float-end2{
+        margin-right: 10px !important;
+    }
+
+
+    .card-body2 .card-title2{
+        margin-top: -7rem !important;
+    font-size: 18px !important;
+    margin-left: 29px !important;
+    }
+
+    .card-text2{
+        font-size: 12px !important;
+    margin-right: 143px !important;
+    margin-left: 31px !important;
+    }
+
+    .btn-primary2{
+        margin-left: 126px !important;
+        width: 90px !important;
+        height: 30px !important;
+        font-size: 9px !important;
+        margin-top: -68px !important;
+    }
+    /*FOOTER*/
+    .footer{
+        margin-bottom: 10px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767.98px) { 
+}
+
+@media (max-width: 575.98px) { 
+}
