@@ -40,7 +40,6 @@
         padding: 25px 20px;
         background-color: transparent;
         color: #fdce20;
-        border-radius: 34px;
         z-index: 2;
       }
 
@@ -130,7 +129,7 @@
       /* SEARCH FORM */
       #search-form {
         position: relative;
-        margin: -0.4rem 30rem 0 0;
+        margin: -0.4rem 23rem 0 0;
       }
 
       #search-form input.search {
@@ -191,17 +190,21 @@
         height: auto;
       }
 
-      .donation {
-        display: flex;
+      .links-image {
+        width: 75px;
+        height: 67px;
       }
 
       .donation-text {
         width: 190px;
         height: 30px;
+        border-radius: 7px;
+        color: #fffffff5;
+        background-color: transparent;
       }
 
       .donation-submit {
-        margin-top: 40px;
+        margin-top: 10px;
         margin-right: 90px;
         border: none;
         color: #fff;
@@ -239,6 +242,28 @@
         }
       }
 
+      @media (max-width: 768px) {
+        * {
+          width: auto;
+        }
+
+        .header {
+          width: auto;
+        }
+
+        .navbar-nav {
+          display: none;
+        }
+
+        .donation h5 {
+          font-size: 13.3px;
+        }
+
+        .donation-text {
+          width: 120px;
+        }
+      }
+
       .sec1 {
         background-image: url("img/paperbg.png");
         /* Add other background properties as needed */
@@ -246,6 +271,10 @@
         background-position: center; /* Adjust as needed */
         background-repeat: no-repeat; /* Adjust as needed */
         padding: 10px;
+      }
+      .welcome-image {
+        width: 670px;
+        height: 280px;
       }
 
       .sec1 button {
@@ -334,7 +363,7 @@
           <!-- icon end -->
 
           <!-- menu content -->
-          <nav class="navbar-menu bg-body-tertiary fixed-top d-none">
+          <nav class="navbar-menu bg-body-tertiary d-none">
             <div class="container-fluid">
               <a class="logo-menu" href="#">
                 <img
@@ -547,8 +576,12 @@
     </div>
 
     <section class="sec1">
-      <div class="col-md-4 d-flex justify-content-center align-items-center">
-        <img src="img/welcome.png" class="img-fluid rounded-center" alt="..." />
+      <div class="col-md-6 mx-auto d-flex">
+        <img
+          src="img/welcome.png"
+          class="welcome-image rounded-center"
+          alt="..."
+        />
       </div>
 
       <div class="card mb-2 border-0 ms-5 mt-5" style="max-width: 840px">
@@ -604,23 +637,9 @@
     </section>
     <footer class="footer mt-auto py-3">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h5>Footer Content</h5>
-            <p>Place your footer content here.</p>
-          </div>
-          <div class="col-md-6">
-            <h5>Use Full Links</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Privacy Police</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Contact Info</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row mt-3">
-          <div class="col-md-6">
-            <h5>Contact Us</h5>
+        <div class="row mt-5">
+          <div class="col-md-3 my-0 d-block">
+            <h3>Contact Us</h3>
             <!-- Add your social media icons or links here -->
             <a href="#" class="me-3"
               ><svg
@@ -665,8 +684,17 @@
               </svg>
             </a>
           </div>
-          <div class="donation col-md-6 text-md-end">
-            <h4>D O N A T I O N</h4>
+          <div class="col-md-3 mx-auto">
+            <h5>Use Full Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Privacy Police</a></li>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Contact Info</a></li>
+            </ul>
+            <img class="links-image" src="img/download.webp" alt="#" />
+          </div>
+          <div class="donation col-md-2 offset-md-0">
+            <h5>D O N A T I O N</h5>
             <input class="donation-text" type="text" value="Nomor Rekening" />
             <input class="donation-submit" type="submit" value="Kirim" />
           </div>
